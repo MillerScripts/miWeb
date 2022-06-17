@@ -1,2 +1,8 @@
-document.write("<script type>")
-window.alert("script")
+class move {
+    constructor(element){
+        this.element = element;
+    }
+}
+
+let recolect = new move();
+console.log(recolect.element)
