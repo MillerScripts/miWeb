@@ -12,3 +12,7 @@ console.log("" + 2 )
 const newfunction = (element) => {
     return element
 } 
+
+const functionCmap = function( ) {
+    return false
+}
