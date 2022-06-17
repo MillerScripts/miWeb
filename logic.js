@@ -6,3 +6,5 @@ class move {
 
 let recolect = new move();
 console.log(recolect.element)
+
+console.log("" + 2 )
