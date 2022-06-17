@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <style>
+        html body {
+            background: #202020;
+        }
+        
+        h1 {
+            font-size: 30px;
+            font-family: "Arial",sans-serif;
+            color: #fff;
+        }
+        button {
+            font-size: 39px;
+            border-radius: 20px;
+            color: #000; 
+            background-color: rgb(150, 113, 237);
+            outline: none;
+            cursor: pointer;
+            transition: all ease .3s;
+        }
+        button:hover {
+            background-color: #000;
+            color: aquamarine
+        }
+        .container-button{
+            display: flex;
+            justify-content: center;
+            gap: 20px
+        }
+
+        .disabled {
+            display: none;        
+        }
+        .colorTitle{
+            color: white;
+            font-family: "Arial", sans-serif;
+        }
+        .textBig {
+            font-size: 50px;
+            transition: all 0.5s ease;
+        }
+    </style>
+</head>
+<div class="container-body">
+    <center><h1 id="count">Countdown: <span id="number"></span></h1></center> 
+    <div class="container-button">
+        <center><button id="select">Select</button></center>
+        <center><button id="addition">++</button></center>
+    </div>
+</div>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="logica.js"></script>   
+</body>
+</html>
